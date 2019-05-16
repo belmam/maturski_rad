@@ -1,1 +1,2 @@
 # maturski_rad
+U  ovom  radu  će  biti  riječi  o  alatu  za  praćenje  i  kontrolu  verzija  programa  koji  se  zove  Git. Git  je sistem  za  distribuiranu  kontrolu  verzije  i  sistem  za  upravljanje  fajlovima. Biće  razmatrane  neke sposobnosti ovog softvera i komande koje se koriste u radu sa njim. U konkretnim primjerima će biti pokazano kako se koristi konzola i aplikacija sa grafičkim korisničkim interfejsom.
