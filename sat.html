@@ -1,41 +1,37 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
-<html> 
-
-    
-<body background="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2017%2F03%2F28%2F388665-city-urban-sunset-Los_Angeles-photoshopped-USA-cityscape-sunlight.jpg&f=1" >
-    
-    
-	<h1 style="color: #ffd8d8; font-size: 40px; text-align:center; text-shadow: 4px 4px 5px #6f0038 ; " >
-JU Mjesovita srednja elektro-masinska skola<br> 
-Lab vjezba 1 - Prakticna nastava<br> 
-Digitalni sat<br><br><br>
-    </h1>
-   
-	<div style="color: #d5d5d5; font-size: 120px; text-align:center; text-shadow: 4px 4px 5px #6f0038;" id="prikazi" onload="vrijeme()"></div>
-	<script>
-    function vrijeme(){
-var date = new Date ();
-var sati = date.getHours();
-var min = date.getMinutes();
-var sec = date.getSeconds();
-sati = (sati<10)? "0" + sati : sati;
-min = (min<10)? "0" + min : min;
-sec = (sec<10)? "0" + sec : sec;
-var currentTime = sati + ":" + min + ":" + sec + " ";
-document.getElementById("prikazi").innerHTML = currentTime;
-document.getElementById("prikazi").textContent = currentTime;
-setTimeout(vrijeme, 500);
-}
-vrijeme();
-    </script><br><br><br><br><br><br>
-	<p style="color: #ff9090; font-size: 30px; text-align:center;text-shadow: 4px 4px 5px #6f0038;" >
-Belma Mahmutovic 4RE  <br>
-Broj u dnevniku: 9  <br>
-Profesor: Emina Arapcic
-    </p>	
-    
-</body>
+<html>   
+	<body background="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2017%2F03%2F28%2F388665-city-urban-sunset-Los_Angeles-photoshopped-USA-cityscape-sunlight.jpg&f=1" >
+	    	    
+		<h1 style="color: #ffd8d8; font-size: 40px; text-align:center; text-shadow: 4px 4px 5px #6f0038 ; " >
+			JU Mjesovita srednja elektro-masinska skola<br> 
+			Lab vjezba 1 - Prakticna nastava<br> 
+			Digitalni sat<br><br><br>
+	    </h1>
+	   
+		<div style="color: #d5d5d5; font-size: 120px; text-align:center; text-shadow: 4px 4px 5px #6f0038;" id="prikazi" onload="vrijeme()"></div>
+		<script>
+	    function vrijeme(){
+			var date = new Date ();
+			var sati = date.getHours();
+			var min = date.getMinutes();
+			var sec = date.getSeconds();
+			sati = (sati<10)? "0" + sati : sati;
+			min = (min<10)? "0" + min : min;
+			sec = (sec<10)? "0" + sec : sec;
+			var currentTime = sati + ":" + min + ":" + sec + " ";
+			document.getElementById("prikazi").innerHTML = currentTime;
+			document.getElementById("prikazi").textContent = currentTime;
+			setTimeout(vrijeme, 500);
+		}
+		vrijeme();
+	    </script><br><br><br><br><br><br>
+		<p style="color: #ff9090; font-size: 30px; text-align:center;text-shadow: 4px 4px 5px #6f0038;" >
+			Belma Mahmutovic 4RE  <br>
+			Broj u dnevniku: 9  <br>
+			Profesor: Emina Arapcic
+	    </p>	 
+	</body>
 </html>
 
 
